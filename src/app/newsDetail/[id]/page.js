@@ -33,11 +33,12 @@ export async function generateMetadata({ params }) {
       openGraph: {
         title: news.headline,
         description: news.description || news.headline,
-        url: `https://corpernews.com/newsDetail/${id}`,
+        url: `https://xdiasporamedia.com/newsDetail/${id}`,
         type: "article",
         images: [
           {
-            url: news.newsImageUrl || "https://corpernews.com/placeholder.jpg",
+            url:
+              news.newsImageUrl || "https://xdiasporamedia.com/placeholder.jpg",
             width: 800,
             height: 600,
             alt: news.headline,
@@ -53,8 +54,8 @@ export async function generateMetadata({ params }) {
     };
   } catch (error) {
     return {
-      title: "Corper News",
-      description: "Latest news from Corper News",
+      title: "Xdiaspora Media",
+      description: "Latest news from Xdiaspora Media",
     };
   }
 }
