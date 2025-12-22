@@ -12,8 +12,8 @@ export async function generateMetadata({ params }) {
 
     if (!res.ok) {
       return {
-        title: "Corper News",
-        description: "Latest news from Corper News",
+        title: "Xdiaspora Media",
+        description: "Latest news from Xdiaspora Media",
       };
     }
 
@@ -22,8 +22,8 @@ export async function generateMetadata({ params }) {
 
     if (!news) {
       return {
-        title: "Corper News",
-        description: "Latest news from Corper News",
+        title: "Xdiaspora Media",
+        description: "Latest news from Xdiaspora Media",
       };
     }
 
