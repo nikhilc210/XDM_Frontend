@@ -16,7 +16,7 @@ export default function Page() {
 
   const getContent = () => {
     axios
-      .get("http://api.xdiasporamedia.com/api/informative/")
+      .get("https://api.xdiasporamedia.com/api/informative/")
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;

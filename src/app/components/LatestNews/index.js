@@ -6,7 +6,7 @@ export default function LatestNews() {
 
   const getNewsData = () => {
     axios
-      .get("http://api.xdiasporamedia.com/api/news/")
+      .get("https://api.xdiasporamedia.com/api/news/")
       .then((response) => {
         const allNews = response.data.filter(
           (item) => item.contentType === "News"

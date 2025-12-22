@@ -43,7 +43,7 @@ export default function NewsDetails({ id }) {
 
   useEffect(() => {
     axios
-      .get(`http://api.xdiasporamedia.com/api/news/detail/${id}`)
+      .get(`https://api.xdiasporamedia.com/api/news/detail/${id}`)
       .then((response) => {
         setNews(response.data[0]);
       })
@@ -54,7 +54,7 @@ export default function NewsDetails({ id }) {
 
   const getAds = () => {
     axios
-      .get("http://api.xdiasporamedia.com/api/ads/")
+      .get("https://api.xdiasporamedia.com/api/ads/")
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;
