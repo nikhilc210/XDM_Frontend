@@ -10,7 +10,7 @@ const reactionsList = [
   "👍 Like",
 ];
 
-const BASE_URL = "https://api.corpernews.com/api/reactions"; // Your backend URL
+const BASE_URL = "http://api.xdiasporamedia.com/api/reactions"; // Your backend URL
 
 export default function Reactions({ id }) {
   const [counts, setCounts] = useState({});

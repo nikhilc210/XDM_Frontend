@@ -44,7 +44,7 @@ export default function NewsWebsite({ id, tab }) {
 
     try {
       const res = await axios.get(
-        "https://api.corpernews.com/api/news/category",
+        "http://api.xdiasporamedia.com/api/news/category",
         {
           params: {
             category: safeTab,
@@ -103,7 +103,7 @@ export default function NewsWebsite({ id, tab }) {
   ================================= */
   const getAds = () => {
     axios
-      .get("https://api.corpernews.com/api/ads/")
+      .get("http://api.xdiasporamedia.com/api/ads/")
       .then((response) => {
         if (response.data.status === "success") {
           const ads = response.data.data;

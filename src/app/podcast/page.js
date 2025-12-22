@@ -7,7 +7,7 @@ export default function index() {
 
   const getNewsData = () => {
     axios
-      .get("https://api.corpernews.com/api/news/")
+      .get("http://api.xdiasporamedia.com/api/news/")
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;

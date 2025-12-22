@@ -6,7 +6,7 @@ export default function Index() {
   const [spotify, setSpotify] = useState(null);
   const getContent = () => {
     axios
-      .get("https://api.corpernews.com/api/informative/")
+      .get("http://api.xdiasporamedia.com/api/informative/")
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;

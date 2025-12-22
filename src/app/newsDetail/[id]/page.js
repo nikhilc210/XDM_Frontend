@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
 
   try {
     const res = await fetch(
-      `https://api.corpernews.com/api/news/detail/${id}`,
+      `http://api.xdiasporamedia.com/api/news/detail/${id}`,
       { next: { revalidate: 60 } }
     );
 

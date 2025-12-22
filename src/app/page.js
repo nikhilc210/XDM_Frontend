@@ -22,7 +22,7 @@ import WorldSection from "./components/WorldSection";
 
 /* Axios instance */
 const api = axios.create({
-  baseURL: "https://api.corpernews.com/api",
+  baseURL: "http://api.xdiasporamedia.com/api",
 });
 
 export default function Home() {
