@@ -80,7 +80,7 @@ export default function NewsDetails({ id }) {
     return <div className="p-8">Loading...</div>;
   }
 
-  const shareUrl = `https://corpernews.com/newsDetail/${news._id}`;
+  const shareUrl = `https://xdiasporamedia.com/newsDetail/${news._id}`;
   const encodedHeadline = encodeURIComponent(news.headline);
 
   const ShareButtons = () => (
