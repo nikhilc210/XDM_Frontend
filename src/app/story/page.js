@@ -17,7 +17,7 @@ export default function Page() {
         <div className="lg:col-span-2 bg-white rounded-lg p-8 shadow-sm">
           <div className="text-center space-y-6">
             <h1 className="text-2xl font-bold text-gray-900">
-              Send Corper News a hint
+              Send XDiaspora Media a hint
             </h1>
 
             <h2 className="text-xl font-semibold text-gray-800">
@@ -34,7 +34,7 @@ export default function Page() {
               <div className="border-2 border-gray-200 rounded-lg p-6 bg-gray-50 inline-block">
                 <p className="text-lg">
                   <span className="font-semibold text-gray-900">Whatsapp:</span>{" "}
-                  <span className="text-gray-700">+23490987654321</span>
+                  <span className="text-gray-700">+81807422031</span>
                 </p>
               </div>
             </div>

@@ -1,11 +1,11 @@
 {
-  "name": "Corper News",
-  "short_name": "CorperNews",
+  "name": "XDiaspora Media",
+  "short_name": "XDiaspora Media",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
-  "description": "Corper News progressive web app",
+  "description": "XDiaspora Media progressive web app",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",

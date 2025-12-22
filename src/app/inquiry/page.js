@@ -28,45 +28,16 @@ export default function page() {
               <div className="border-2 border-gray-200 rounded-lg p-6 bg-gray-50 max-w-md mx-auto">
                 <div className="space-y-4 text-left">
                   <p className="text-lg">
-                    <span className="font-semibold text-gray-900">Email:</span>{" "}
-                    <a
-                      href="mailto:advertise@corpernews.com"
-                      className="text-blue-600 hover:text-blue-800 hover:underline"
-                    >
-                      advertise@corpernews.com
-                    </a>
-                  </p>
-
-                  <p className="text-lg">
-                    <span className="font-semibold text-gray-900">Call:</span>{" "}
-                    <span className="space-x-2">
-                      <a
-                        href="tel:08012345678"
-                        className="text-blue-600 hover:text-blue-800 hover:underline"
-                      >
-                        08012345678
-                      </a>
-                      <span className="text-gray-700">,</span>
-                      <a
-                        href="tel:09012345678"
-                        className="text-blue-600 hover:text-blue-800 hover:underline"
-                      >
-                        09012345678
-                      </a>
-                    </span>
-                  </p>
-
-                  <p className="text-lg">
                     <span className="font-semibold text-gray-900">
                       Whatsapp:
                     </span>{" "}
                     <a
-                      href="https://wa.me/23490987654321"
+                      href="https://wa.me/81807422031"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-600 hover:text-green-800 hover:underline"
                     >
-                      +23490987654321
+                      +81807422031
                     </a>
                   </p>
                 </div>

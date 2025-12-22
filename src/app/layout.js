@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Corper News",
-  description: "Corper News progressive web app",
+  title: "XDiaspora Media",
+  description: "XDiaspora Media progressive web app",
   display: "standalone",
   background_color: "#ffffff",
   theme_color: "#0D4A9D",
@@ -26,9 +26,9 @@ export const metadata = {
     shortcut: "/icons/icon-192x192.png",
     apple: "/icons/icon-512x512.png",
   },
-  other: {
-    "google-adsense-account": "ca-pub-5104378134649664",
-  },
+  // other: {
+  //   "google-adsense-account": "ca-pub-5104378134649664",
+  // },
 };
 
 export default function RootLayout({ children }) {
