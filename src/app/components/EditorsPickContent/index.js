@@ -27,10 +27,10 @@ export default function EditorsPickContent({
   }, [ads]);
 
   const editorsPickArticles = mainArticles.filter(
-    (item) => item.section === "Editor's Pick"
+    (item) => item.section === "Diaspora Voices"
   );
   const sidebarFiltered = sidebarItems.filter(
-    (item) => item.section === "Editor's Pick"
+    (item) => item.section === "Diaspora Voices"
   );
 
   return (
