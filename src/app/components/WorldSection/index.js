@@ -12,9 +12,7 @@ export default function WorldSection({ mainNews = [], ads = [] }) {
     return div.textContent || div.innerText || "";
   };
 
-  const politicsNews = mainNews.filter(
-    (item) => item.category === "World News"
-  );
+  const politicsNews = mainNews.filter((item) => item.section === "World News");
 
   /* =========================
      DESKTOP UI

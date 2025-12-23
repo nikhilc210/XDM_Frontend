@@ -43,7 +43,7 @@ export default function PoliticsSection({ mainNews, ads }) {
               {/* First Featured Article */}
               <BrowserView>
                 {mainNews
-                  .filter((item) => item.section === "Politics")
+                  .filter((item) => item.section === "Visa & Travel Guides")
                   .slice(0, 2)
                   .map((item, index) => {
                     console.log("item-00000>", item);
@@ -77,7 +77,7 @@ export default function PoliticsSection({ mainNews, ads }) {
               </BrowserView>
               <MobileView>
                 {mainNews
-                  .filter((item) => item.section === "Politics")
+                  .filter((item) => item.section === "Visa & Travel Guides")
                   .slice(0, 2)
                   .map((item, index) => (
                     <a href={`/newsDetail/${item._id}`} key={index}>
@@ -108,7 +108,7 @@ export default function PoliticsSection({ mainNews, ads }) {
             {/* Center Column - News List */}
             <div className="lg:col-span-4 space-y-4">
               {mainNews
-                .filter((item) => item.section === "Politics")
+                .filter((item) => item.section === "Visa & Travel Guides")
                 .slice(3, 10)
                 .map((_, index) => (
                   <a href={"/newsDetail/" + _._id} key={index}>
@@ -183,7 +183,7 @@ export default function PoliticsSection({ mainNews, ads }) {
                 <div className="p-4">
                   <div className="grid grid-cols-2 gap-4">
                     {mainNews
-                      .filter((item) => item.section === "Politics")
+                      .filter((item) => item.section === "Visa & Travel Guides")
                       .slice(11, 13)
                       .map((item, index) => {
                         return (

@@ -17,7 +17,7 @@ export default function EditorsPickGrid({ items }) {
       <BrowserView>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
           {items
-            .filter((item) => item.section === "Editor's Pick")
+            .filter((item) => item.section === "Diaspora Voices")
             .slice(0, 5)
             .map((item, index) => (
               <a href={"/newsDetail/" + item._id} key={index}>
@@ -43,7 +43,7 @@ export default function EditorsPickGrid({ items }) {
       <MobileView>
         <div className="space-y-4 mb-6">
           {items
-            .filter((item) => item.section === "Editor's Pick")
+            .filter((item) => item.section === "Diaspora Voices")
             .slice(0, 5)
             .map((item, index) => (
               <a
