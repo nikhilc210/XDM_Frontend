@@ -35,12 +35,12 @@ export default function Page() {
                 <p className="text-lg">
                   <span className="font-semibold text-gray-900">Whatsapp:</span>{" "}
                   <a
-                    href="https://wa.me/81807422031"
+                    href="https://wa.me/+818074922031"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-600 hover:text-green-800 hover:underline"
                   >
-                    +81807422031
+                    +818074922031
                   </a>
                 </p>
               </div>
