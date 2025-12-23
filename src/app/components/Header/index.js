@@ -149,7 +149,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <nav className="md:hidden bg-blue-900">
+        <nav className="md:hidden bg-[#2e8b57]">
           <ul>
             <li>
               <a
@@ -175,7 +175,7 @@ export default function Header() {
                 href={"/videos"}
                 className="block px-4 py-3 text-white hover:bg-[#2e8b57] transition-colors border-b border-[#2e8b57] last:border-b-0"
               >
-                Videos
+                XD TV
               </a>
             </li>
             <li>
@@ -186,7 +186,7 @@ export default function Header() {
                 Podcast
               </a>
             </li>
-            <li className="border-t-2 border-blue-700 mt-2 pt-2">
+            <li className="border-t-1 border-white mt-2 pt-2">
               <a
                 href="/story"
                 className="block px-4 py-3 text-white hover:bg-[#2e8b57] transition-colors"
