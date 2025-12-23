@@ -37,8 +37,7 @@ export async function generateMetadata({ params }) {
         type: "article",
         images: [
           {
-            url:
-              news.newsImageUrl || "https://xdiasporamedia.com/placeholder.jpg",
+            url: news.newsImageUrl,
             width: 800,
             height: 600,
             alt: news.headline,

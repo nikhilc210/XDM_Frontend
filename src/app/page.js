@@ -162,7 +162,7 @@ export default function Home() {
       </center>
 
       {/* EDITORS PICK */}
-      <HomeHeader title="EDITOR'S PICK" />
+      <HomeHeader title="DIASPORA VOICES" />
       <div className="max-w-7xl mx-auto px-4 py-6">
         <EditorsPickGrid items={editorsPick} />
         <EditorsPickContent
@@ -174,14 +174,14 @@ export default function Home() {
       </div>
 
       {/* TRENDING */}
-      <HomeHeader title="TRENDING STORIES" />
+      <HomeHeader title="IMMIGRATION NEWS" />
       <div className="max-w-7xl mx-auto px-4 py-6">
         <TrendingStories mainNews={trending} ads={ads} />
         {renderAd("TRENDING_NEWS_BOTTOM_LEADERBOARD")}
       </div>
 
       {/* POLITICS */}
-      <HomeHeader title="POLITICS" />
+      <HomeHeader title="VISA & TRAVEL GUIDES" />
       <div className="max-w-7xl mx-auto px-4 py-6">
         <PoliticsSection mainNews={politics} ads={ads} />
         {renderAd("POLITICS_BOTTOM_LEADERBOARD")}

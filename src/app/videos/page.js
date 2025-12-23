@@ -11,7 +11,7 @@ export default function index() {
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;
-        console.log("res========>", res);
+
         setMainNews(res.filter((item) => item.contentType === "Video"));
       })
       .catch((error) => {
@@ -25,7 +25,7 @@ export default function index() {
 
   return (
     <div className="w-full">
-      <HomeHeader title={"Corper TV"} />
+      <HomeHeader title={"XDiaspora TV"} />
       <div className="max-w-7xl mx-auto px-4 mt-[20px]">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {mainNews.map((video) => (

@@ -58,7 +58,7 @@ export default function NewsDetails({ id }) {
       .then((response) => {
         console.log(response.data); // Handle successful response
         let res = response.data;
-        console.log("res====>", res);
+
         if (res.status === "success") {
           setAds(res.data);
         }
@@ -93,7 +93,7 @@ export default function NewsDetails({ id }) {
           )}`}
           target="_blank"
           rel="noopener noreferrer"
-          className=" w-[50px] h-[50px] flex justify-center items-center shadow rounded-full  hover:bg-blue-100 text-[24px] !bg-[#3b5998] !text-[#FFFFFF]"
+          className="w-[50px] h-[50px] flex justify-center items-center shadow rounded-full  hover:bg-blue-100 text-[24px] !bg-[#3b5998] !text-[#FFFFFF]"
         >
           <FacebookOutlined width={25} size={25} />
         </a>
