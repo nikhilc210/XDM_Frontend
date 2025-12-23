@@ -134,8 +134,8 @@ export default function Home() {
       </div>
 
       {/* DESKTOP VIEW */}
-      <HomeHeader title="TOP STORIES" />
-      <div className="max-w-7xl mx-auto hidden lg:flex gap-6 mt-6">
+      {/* <HomeHeader title="TOP STORIES" /> */}
+      <div className="max-w-7xl mx-auto hidden lg:flex gap-6 ">
         <div className="flex-1">
           <FeaturedArticle mainNews={featured} />
           <NewsGrid items={homeNews.slice(0, 4)} showAds={false} />
