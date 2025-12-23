@@ -25,22 +25,18 @@ export default function page() {
             </p>
 
             <div className="mt-8">
-              <div className="border-2 border-gray-200 rounded-lg p-6 bg-gray-50 max-w-md mx-auto">
-                <div className="space-y-4 text-left">
-                  <p className="text-lg">
-                    <span className="font-semibold text-gray-900">
-                      Whatsapp:
-                    </span>{" "}
-                    <a
-                      href="https://wa.me/81807422031"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-green-600 hover:text-green-800 hover:underline"
-                    >
-                      +81807422031
-                    </a>
-                  </p>
-                </div>
+              <div className="border-2 border-gray-200 rounded-lg p-6 bg-gray-50 inline-block">
+                <p className="text-lg">
+                  <span className="font-semibold text-gray-900">Whatsapp:</span>{" "}
+                  <a
+                    href="https://wa.me/81807422031"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 hover:text-green-800 hover:underline"
+                  >
+                    +81807422031
+                  </a>
+                </p>
               </div>
             </div>
           </div>
